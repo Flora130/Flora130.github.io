@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Flora Zhang</a></h1>
+
+        <nav>
+            <a href="work.html">Projects</a>
+            <a href="interest.html">Arts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <svg class="menu" viewBox="0 0 30 30" role="button">
+            <title>Navigation Menu Icon</title>
+            <polygon points="10,10 20,10 15,25" fill="white" />
+        </svg>
+
+    </header>
+    <form method="post" action="https://formspree.io/f/xwpkjprl">
+        <div id="contact">
+            <label for="">
+                Name
+                <input type="text" name="name" required="">
+            </label>
+            <label for="">
+                Email
+                <input type="email" name="email" required="">
+            </label>
+            <label for="">
+                Message
+                <textarea name="message" cols="36" rows="6" placeholder="Enter your message here." id=""></textarea>
+            </label>
+
+            <input type="submit" value="Send">
+        </div>
+    </form>
+    <footer>
+        Final project of <a href="https://cs.nyu.edu/courses/fall24/CSCI-UA.0004-004/common-syllabus/"> Intro to Web
+            Design</a>
+    </footer>
+    <script src="nav.js"></script>
+</body>
+
+</html>
